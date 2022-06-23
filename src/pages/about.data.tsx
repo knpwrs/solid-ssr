@@ -14,7 +14,7 @@ function fetchName(): Promise<string> {
 }
 
 const AboutData: RouteDataFunc = () => {
-  const [data] = createResource(fetchName);
+  const [data] = createResource(fetchName, { deferStream: true });
 
   return data;
 };

@@ -8,6 +8,8 @@ export async function render(url: string) {
   const renderPromise = renderToStringAsync(() => app);
   const css = extractCss();
 
+  console.log({ css });
+
   return {
     appHtml: await renderPromise,
     css,
