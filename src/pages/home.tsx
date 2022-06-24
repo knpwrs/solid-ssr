@@ -16,7 +16,7 @@ export default function Home() {
       <div>
         <button onClick={() => setCount(count() - 1)}>-</button>
 
-        <output>Count: {count}</output>
+        <output>Count: {count()}</output>
 
         <button onClick={() => setCount(count() + 1)}>+</button>
       </div>
