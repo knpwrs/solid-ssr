@@ -66,7 +66,7 @@ async function createServer(
         .replace('<!--hydrationScript-->', hydrationScript)
         .replace(`<!--hydration-->`, hydration)
         .replace(`<!--appHtml-->`, appHtml)
-        .replace(`<!--css-->`, `<style id="__goober">${css}</style>`);
+        .replace(`<!--css-->`, `<style id="_goober">${css}</style>`);
 
       rep.code(200).type('text/html').send(html);
     } catch (e: any) {
