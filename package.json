@@ -20,7 +20,7 @@
     "fastify": "^4.0.2",
     "solid-app-router": "^0.3.3",
     "solid-js": "^1.4.4",
-    "solid-styled-components": "^0.28.1",
+    "solid-styled-components": "^0.28.3",
     "tsx": "^3.4.2"
   },
   "devDependencies": {
